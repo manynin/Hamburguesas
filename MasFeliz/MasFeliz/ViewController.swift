@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var mensajePositivo: UILabel!
+    var colores = Colores()
+    var frases = Frases()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +25,13 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func dameMensajePositivo() {
+        mensajePositivo.text = "Entuaiz esta chiquitilla"
+        let colorAleatorio = colores.regresaColorAleatorio()
+        view.backgroundColor = colorAleatorio
+        view.tintColor = colorAleatorio
+        mensajePositivo.text = frases.regresaFrase()
+    }
+    
 }
 

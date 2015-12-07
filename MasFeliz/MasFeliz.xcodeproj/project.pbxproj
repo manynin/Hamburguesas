@@ -13,6 +13,7 @@
 		4786D69F1C14BE0000A79D9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4786D69E1C14BE0000A79D9F /* Images.xcassets */; };
 		4786D6A21C14BE0000A79D9F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4786D6A01C14BE0000A79D9F /* LaunchScreen.xib */; };
 		4786D6AE1C14BE0000A79D9F /* MasFelizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786D6AD1C14BE0000A79D9F /* MasFelizTests.swift */; };
+		4786D6B91C14F49A00A79D9F /* ColoresStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786D6B81C14F49A00A79D9F /* ColoresStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		4786D6A71C14BE0000A79D9F /* MasFelizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasFelizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4786D6AC1C14BE0000A79D9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4786D6AD1C14BE0000A79D9F /* MasFelizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasFelizTests.swift; sourceTree = "<group>"; };
+		4786D6B71C14CCCC00A79D9F /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		4786D6B81C14F49A00A79D9F /* ColoresStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoresStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				4786D69E1C14BE0000A79D9F /* Images.xcassets */,
 				4786D6A01C14BE0000A79D9F /* LaunchScreen.xib */,
 				4786D6951C14BE0000A79D9F /* Supporting Files */,
+				4786D6B71C14CCCC00A79D9F /* MyPlayground.playground */,
+				4786D6B81C14F49A00A79D9F /* ColoresStruct.swift */,
 			);
 			path = MasFeliz;
 			sourceTree = "<group>";
@@ -213,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4786D69A1C14BE0000A79D9F /* ViewController.swift in Sources */,
+				4786D6B91C14F49A00A79D9F /* ColoresStruct.swift in Sources */,
 				4786D6981C14BE0000A79D9F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
